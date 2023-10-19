@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Color Changer</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+
+    <div id="filters">
+      <div>
+        <label for="New">New Listed</label>
+        <input type="checkbox" id="new">
+      </div>
+      <div>
+        <label for="used">Used</label>
+        <input type="checkbox" id="used">
+      </div>
+      <div>
+        <label for="sold">Sold</label>
+        <input type="checkbox" id="sold">
+      </div>
+    </div>
+    <hr>
+    <div id="pages">
+      <h3 id="totalPages">Total Pages: 0</h3>
+      <select id="selectedPage">
+        <option selected>0</option>
+      </select>
+    </div>
+    <hr>
+    <button id="getPrice">Get Price Detail</button>
+    <hr>
+
+    <div id="outerProgressBar">
+     <div id="innerProgressBar">
+      0%
+     </div>
+    </div>
+
+    <div id="showPrice">
+      <span class="priceContainer">
+        <h4>Minimum Price</h4>
+        <p id="minPrice">0 $</p>
+      </span>
+      <span class="priceContainer">
+        <h4>Average Price</h4>
+        <p id="avgPrice">0 $</p>
+      </span>
+      <span class="priceContainer">
+        <h4>Maximum Price</h4>
+        <p id="maxPrice">0 $</p>
+      </span>
+      <span class="priceContainer">
+        <h4>Mod Price</h4>
+        <p id="mod">0 $</p>
+      </span>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Ebay Price Fetcher",
+  "version": "1.0",
+  "permissions": ["activeTab","scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "ebay_icon.png"
+  },
+  "icons": {
+    "16": "ebay_icon.png",
+    "32": "ebay_icon.png",
+    "48": "ebay_icon.png",
+    "128": "ebay_icon.png"
+  }
+}
